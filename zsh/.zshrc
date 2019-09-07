@@ -1,6 +1,3 @@
-echo "Welcome Nicholas! This is Ubuntu 18.04\n"
-neofetch
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -14,8 +11,14 @@ neofetch
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 POWERLEVEL9K_MODE='nerdfont-complete'
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(anaconda dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history)
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(anaconda vpn_ip dir chruby nvm
+virtualenv pyenv rbenv docker_machine kubecontext vcs root_indicator newline)
+
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs status)
+
+export TERM="xterm-256color"
+export EDITOR="vim"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -118,6 +121,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-  alias ls="ls -a --color=always"
+  alias ls="colorls -a"
   alias update="sudo apt update"
   alias upgrade="sudo apt upgrade --install-suggests"
+  alias up="sudo apt update; sudo apt upgrade --install-suggests -y; sudo apt dist-upgrade --install-suggests -y; sudo apt autoremove -y"
+  alias cpuram="sudo dmidecode --type 4; sudo dmidecode --type 17"
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
