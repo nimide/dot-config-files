@@ -1,0 +1,1 @@
+wsl.exe ~ -d ArchLinux . ~/.profile;nohup /bin/sh -c "GTK_THEME=$GTK_THEME:dark DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0 dbus-launch startplasma-x11&"

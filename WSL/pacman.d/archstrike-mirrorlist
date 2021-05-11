@@ -1,0 +1,23 @@
+#
+# ArchStrike repository mirrorlist
+# Generated on 2021-03-11
+#
+
+Server = https://mirror.umd.edu/archstrike/$arch/$repo
+Server = https://mirror.archstrike.org/$arch/$repo
+
+
+#Backups
+## Official Mirrors
+#Server = https://mirror.archstrike.org/$arch/$repo
+
+## Community Mirrors
+#Server = https://www.mirrorservice.org/sites/mirror.archstrike.org/$arch/$repo
+#Server = https://mirror.umd.edu/archstrike/$arch/$repo
+#Server = https://ftp.acc.umu.se/mirror/archstrike.org/$arch/$repo
+#Server = https://ftp.yzu.edu.tw/Linux/archstrike/$arch/$repo
+#Server = https://mirror.aarnet.edu.au/pub/archstrike/archstrike/$arch/$repo
+#Server = https://mirror.cedia.org.ec/archstrike/$arch/$repo
+#Server = https://mirror.uce.edu.ec/archstrike/$arch/$repo
+#Server = https://mirror.epn.edu.ec/archstrike/$arch/$repo
+#Server = https://archstrike.unixpeople.org/$arch/$repo

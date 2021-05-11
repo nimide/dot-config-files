@@ -1,0 +1,183 @@
+==> Making package: rtags-clang-git 2.38-3 (Sun 14 Mar 2021 05:02:53 PM CST)
+==> Missing dependencies:
+  -> clang-git
+  -> llvm-git
+
+-- debuginfo-tests project is disabled
+-- parallel-libs project is disabled
+-- pstl project is disabled
+-- flang project is disabled
+
+-- Looking for malloc/malloc.h - not found
+-- Looking for valgrind/valgrind.h - not found
+-- Looking for mach/mach.h - not found
+-- Looking for CrashReporterClient.h - not found
+-- Looking for pfm_initialize in pfm - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads - not found
+-- Looking for xar_open in xar - not found
+-- Looking for arc4random - not found
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Looking for mallctl - not found
+-- Looking for malloc_zone_statistics - not found
+-- Looking for strerror_s - not found
+-- Looking for dladdr - not found
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Looking for proc_pid_rusage - not found
+-- Performing Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG - Failed
+-- OCaml bindings disabled, need ctypes >=0.4.
+-- Could NOT find Python module pygments
+-- Could NOT find Python module pygments.lexers.c_cpp
+-- Could NOT find Python module yaml
+-- Performing Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Failed
+-- Performing Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG - Failed
+-- Performing Test C_WCOMMENT_ALLOWS_LINE_WRAP - Failed
+-- Performing Test C_SUPPORTS_STRING_CONVERSION_FLAG - Failed
+-- Performing Test CXX_SUPPORTS_STRING_CONVERSION_FLAG - Failed
+-- Performing Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS - Failed
+-- Looking for os_signpost_interval_begin - not found
+-- Looking for rpc/xdr.h - not found
+-- Performing Test COMPILER_RT_HAS_FNO_SANITIZE_SAFE_STACK_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_FNO_PROFILE_INSTR_GENERATE_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_FNO_PROFILE_INSTR_USE_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_MCRC_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_GR_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_GS_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_MT_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_Oy_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_GLINE_TABLES_ONLY_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_Zi_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WGLOBAL_CONSTRUCTORS_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WC99_EXTENSIONS_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WGNU_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WCOVERED_SWITCH_DEFAULT_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_W4_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WX_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WD4146_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WD4291_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WD4221_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WD4391_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WD4722_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_WD4800_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_NOSTDLIBXX_FLAG - Failed
+-- Looking for backtrace in execinfo - not found
+-- Performing Test COMPILER_RT_HAS_XRAY_COMPILER_FLAG - Failed
+-- Performing Test COMPILER_RT_HAS_FLOAT16 - Failed
+-- Performing Test COMPILER_RT_HAS_ASM_LSE - Failed
+-- Performing Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG - Failed
+-- Looking for include files sys/types.h, sys/event.h - not found
+-- Looking for compression_encode_buffer in compression - not found
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE)
+CUDA_TOOLKIT_ROOT_DIR not found or specified
+-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY)
+-- Performing Test HAVE_DECL__BITSCANFORWARD - Failed
+-- Performing Test HAVE_DECL__STRICMP - Failed
+-- Performing Test HAVE_DECL__STRNICMP - Failed
+-- Performing Test HAVE_DECL__SNPRINTF - Failed
+-- Performing Test HAVE_UINT8T - Failed
+-- Performing Test HAVE_SYS_INTTYPES_H - Failed
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+
+checking for xcrun... no
+checking whether we are cross compiling... no
+checking for minix/config.h... no
+checking for sys/systeminfo.h... no
+checking for coff.h... no
+checking for util.h... no
+checking for malloc/malloc.h... no
+checking for vfork.h... no
+checking for sys/fs_types.h... no
+checking whether _XOPEN_SOURCE should be defined... no
+checking for Minix Amsterdam compiler... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+configure: WARNING: Please read INSTALL before using link-time optimization with clang
+checking for brew... no
+checking whether addresses are sanitized... no
+checking for machine/soundcard.h... no
+checking for soundcard.h... no
+checking for mmsystem.h... no
+checking for net/if_dl.h... no
+checking for struct ifreq.ifr_addr.sa_len... no
+checking whether malloc is Doug Lea style... no
+checking for __lsan_ignore_object... no
+checking for memset_s... no
+checking for main in -lXbsd... no
+configure: WARNING: Your version of Gtk+ will have problems with
+       closing open displays.  This is no problem if you just use
+       one display, but if you use more than one and close one of them
+       Emacs may crash.
+       See https://gitlab.gnome.org/GNOME/gtk/issues/221
+checking for lgetfilecon in -lselinux... no
+checking for dlfunc... no
+checking for maillock in -lmail... no
+checking for maillock in -llockfile... no
+checking for liblockfile.so... no
+checking for maillock.h... no
+checking for timer_getoverrun... no
+checking for pthread_set_name_np... no
+checking whether pthread_setname_np takes a single argument... no
+checking whether pthread_setname_np takes three arguments... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for valgrind/valgrind.h... no
+checking whether // is distinct from /... no
+checking whether byte ordering is bigendian... no
+checking whether strmode is declared... no
+checking whether the compiler produces multi-arch binaries... no
+checking whether <limits.h> defines MIN and MAX... no
+checking whether stat file-mode macros are broken... no
+checking for acl_delete_fd_np... no
+checking for acl_delete_file_np... no
+checking for acl_copy_ext_native... no
+checking for acl_create_entry_np... no
+checking for acl_to_short_text... no
+checking for acl_free_text... no
+checking for ACL_TYPE_EXTENDED... no
+checking whether // is distinct from /... (cached) no
+checking whether to use statvfs64... no
+checking for sys/fs/s5param.h... no
+checking for statfs that truncates block counts... no
+checking for sys/loadavg.h... no
+checking whether pthread_sigmask is a macro... no
+checking for working re_compile_pattern... no
+checking for sig2str... no
+checking for struct stat.st_birthtimespec.tv_nsec... no
+checking for struct stat.st_birthtimensec... no
+checking for struct stat.st_birthtim.tv_nsec... no
+checking for timezone_t... no
+  Should Emacs use the GNU version of malloc?             no
+    (The GNU allocators don't work with this system configuration.)
+  Should Emacs use a relocating allocator for buffers?    no
+  Should Emacs use mmap(2) for buffer allocation?         no
+  Does Emacs use -lXaw3d?                                 no
+  Does Emacs use -lXpm?                                   no
+  Does Emacs use imagemagick?                             no
+  Does Emacs use native APIs for images?                  no
+  Does Emacs use -lgconf?                                 no
+  Does Emacs use GSettings?                               no
+  Does Emacs use -lselinux?                               no
+  Does Emacs support legacy unexec dumping?               no
+
+configure: WARNING: This configuration installs a 'movemail' program
+that does not retrieve POP3 email.  By default, Emacs 25 and earlier
+installed a 'movemail' program that retrieved POP3 email via only
+insecure channels, a practice that is no longer recommended but that
+you can continue to support by using './configure --with-pop'.
+configure: You might want to install GNU Mailutils
+<https://mailutils.org> and use './configure --with-mailutils'.
+
+-- Performing Test HAS_ACCEPTABLE_FORTIFY - Failed
+-- Looking for kstat_lookup in kstat - not found
+-- Looking for kvm_open in kvm - not found
+-- Looking for perfstat_cpu in perfstat - not found
+-- Looking for sendfile in sendfile - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads - not found
+-- Performing Test HAS_WSTATIC_IN_INLINE - Failed
+-- Looking for _NSGetEnviron - not found
+-- Looking for include file sys/endian.h - not found

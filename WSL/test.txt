@@ -1,0 +1,62 @@
+cd /home/nimide/Programs/aur/llvm-git/src/llvm-project/llvm/bindings/go/llvm
+go mod init llvm.org/llvm/bindings/go/llvm
+
+Logos.com (1,791)
+Verbum.com (1,704)
+ebooks.faithlife.com (1,634)
+audio.faithlife.com (63)
+courses.faithlife.com (34)
+sc.logos.com (22)
+tc.logos.com (22)
+lexhampress.com (18)
+de.logos.com (14)
+pt.logos.com (10)
+
+
+[120/121] Running polly regression tests
+: CommandLine Error: Option 'polly-detect-profitability-min-per-loop-insts' registered more than once!
+LLVM ERROR: inconsistency in registered CommandLine options
+llvm-lit: /home/nimide/Programs/aur/llvm-git/src/llvm-project/llvm/utils/lit/lit/formats/googletest.py:41: warning: unable to discover google-tests in '/home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/unittests/ScopPassManager/./ScopPassManagerTests': Command '['/home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/unittests/ScopPassManager/./ScopPassManagerTests', '--gtest_list_tests']' died with <Signals.SIGABRT: 6>.. Process output: b''
+: CommandLine Error: Option 'polly-delicm-max-ops' registered more than once!
+LLVM ERROR: inconsistency in registered CommandLine options
+llvm-lit: /home/nimide/Programs/aur/llvm-git/src/llvm-project/llvm/utils/lit/lit/formats/googletest.py:41: warning: unable to discover google-tests in '/home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/unittests/DeLICM/./DeLICMTests': Command '['/home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/unittests/DeLICM/./DeLICMTests', '--gtest_list_tests']' died with <Signals.SIGABRT: 6>.. Process output: b''
+: CommandLine Error: Option 'polly-opt-optimize-only' registered more than once!
+LLVM ERROR: inconsistency in registered CommandLine options
+llvm-lit: /home/nimide/Programs/aur/llvm-git/src/llvm-project/llvm/utils/lit/lit/formats/googletest.py:41: warning: unable to discover google-tests in '/home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/unittests/ScheduleOptimizer/./ScheduleOptimizerTests': Command '['/home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/unittests/ScheduleOptimizer/./ScheduleOptimizerTests', '--gtest_list_tests']' died with <Signals.SIGABRT: 6>.. Process output: b''
+FAIL: Polly-Unit :: DeLICM/./DeLICMTests/failed_to_discover_tests_from_gtest (1139 of 1167)
+******************** TEST 'Polly-Unit :: DeLICM/./DeLICMTests/failed_to_discover_tests_from_gtest' FAILED ********************
+: CommandLine Error: Option 'polly-delicm-max-ops' registered more than once!
+LLVM ERROR: inconsistency in registered CommandLine options
+
+********************
+FAIL: Polly-Unit :: ScopPassManager/./ScopPassManagerTests/failed_to_discover_tests_from_gtest (1164 of 1167)
+******************** TEST 'Polly-Unit :: ScopPassManager/./ScopPassManagerTests/failed_to_discover_tests_from_gtest' FAILED ********************
+: CommandLine Error: Option 'polly-detect-profitability-min-per-loop-insts' registered more than once!
+LLVM ERROR: inconsistency in registered CommandLine options
+
+********************
+FAIL: Polly-Unit :: ScheduleOptimizer/./ScheduleOptimizerTests/failed_to_discover_tests_from_gtest (1165 of 1167)
+******************** TEST 'Polly-Unit :: ScheduleOptimizer/./ScheduleOptimizerTests/failed_to_discover_tests_from_gtest' FAILED ********************
+: CommandLine Error: Option 'polly-opt-optimize-only' registered more than once!
+LLVM ERROR: inconsistency in registered CommandLine options
+
+********************
+********************
+Failed Tests (3):
+  Polly-Unit :: DeLICM/./DeLICMTests/failed_to_discover_tests_from_gtest
+  Polly-Unit :: ScheduleOptimizer/./ScheduleOptimizerTests/failed_to_discover_tests_from_gtest
+  Polly-Unit :: ScopPassManager/./ScopPassManagerTests/failed_to_discover_tests_from_gtest
+
+
+Testing Time: 55.20s
+  Unsupported      :   36
+  Passed           : 1104
+  Expectedly Failed:   24
+  Failed           :    3
+
+3 warning(s) in tests
+FAILED: tools/polly/test/CMakeFiles/check-polly-tests
+cd /home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/test && /usr/sbin/python3.9 /home/nimide/Programs/aur/llvm-git/src/_build/./bin/llvm-lit -sv --param polly_site_config=/home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/test/lit.site.cfg --param polly_unit_site_config=/home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/test/Unit/lit.site.cfg /home/nimide/Programs/aur/llvm-git/src/_build/tools/polly/test
+ninja: build stopped: subcommand failed.
+==> ERROR: A failure occurred in check().
+

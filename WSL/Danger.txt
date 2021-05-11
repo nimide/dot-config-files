@@ -1,0 +1,31 @@
+spice is affected by multiple issues. Critical risk!
+gradle is affected by multiple issues. High risk!
+gradle-src is affected by multiple issues. High risk!
+inetutils is affected by arbitrary code execution. High risk!
+openssl-1.0 is affected by denial of service, multiple issues, private key recovery. High risk!
+binutils is affected by arbitrary filesystem access. Medium risk!
+exiv2 is affected by multiple issues. Medium risk!
+ffmpeg is affected by arbitrary code execution. Medium risk!
+flac is affected by information disclosure. Medium risk!
+giflib is affected by information disclosure. Medium risk!
+go is affected by incorrect calculation. Medium risk!
+jansson is affected by information disclosure. Medium risk!
+jdk-openjdk is affected by insufficient validation. Medium risk!
+jre-openjdk-headless is affected by insufficient validation. Medium risk!
+libcaca is affected by arbitrary code execution. Medium risk!
+maven is affected by man-in-the-middle. Medium risk!
+openjpeg2 is affected by multiple issues. Medium risk!
+pass is affected by insufficient validation. Medium risk!
+podofo is affected by multiple issues, denial of service. Medium risk!
+qemu is affected by multiple issues. Medium risk!
+wpa_supplicant is affected by multiple issues. Medium risk!
+xdg-utils is affected by information disclosure. Medium risk!
+xerces-c is affected by arbitrary code execution. Medium risk!
+avahi is affected by denial of service. Low risk!
+glibc is affected by denial of service. Low risk!
+libexif is affected by denial of service. Low risk!
+lua51 is affected by denial of service. Low risk!
+p7zip is affected by denial of service. Low risk!
+packagekit is affected by information disclosure. Low risk!
+python2-pygments is affected by denial of service. Low risk!
+unzip is affected by arbitrary code execution. Low risk!
